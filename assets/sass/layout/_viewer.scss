@@ -127,7 +127,6 @@
 				@include vendor('background-image', (
 					'linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0))',
 				));
-				/*background: #ffffff url('images/bg.png') repeat-y;*/
 				background-color: #fff;
 				/*@include padding(2em, 2em);*/
 				position: absolute;
@@ -140,6 +139,53 @@
 				color: #000000;
 				z-index: 1;
 
+				&.planComun {
+					background-color: #ECECEC;
+				}
+				&.grafico {
+					background-color: #222222;
+					color: #EBEBEB;
+
+				}
+				&.grafico h2 {
+					color: #EBEBEB;
+
+				}
+				&.interaccion {
+					background-color: #f3e731;
+
+				}
+				&.interaccion .captionGroup h2 {
+					border: 4px solid #000000
+				}
+				&.interaccion .captionGroup h3.mencion {
+					border: 4px solid #000000;
+					background-color: #000000;
+					color: #ffffff;
+				}
+				&.espacios {
+					background-color: #3b3b3b;
+					color: #EBEBEB;
+
+				}
+				&.espacios h2 {
+					color: #EBEBEB;
+
+				}
+				&.facultad {
+					background-color: #888888;
+
+				}
+				&.facultad .captionGroup h2 {
+					border: 4px solid #000000;
+					
+				}
+				&.facultad .captionGroup h3.mencion {
+					border: 4px solid #000000;
+					background-color: #000000;
+					color: #ffffff;
+					
+				}
 				.captionGroup {
 					position: absolute;
 					bottom: 0;

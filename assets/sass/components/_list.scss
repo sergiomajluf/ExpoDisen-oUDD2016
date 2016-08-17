@@ -22,11 +22,12 @@
 
 	ul {
 		list-style: none;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 _size(element-margin) 0.5em;
 		/*padding-left: 1em;*/
 
 		li {
 			padding-left: 0.5em;
+			text-align: center;
 
 			strong {
 			    font-weight: bold;

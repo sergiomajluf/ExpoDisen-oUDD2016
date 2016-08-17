@@ -619,6 +619,9 @@ var main = (function($) { var _ = {
 
 								// Mark as active.
 									newSlide.$slide.addClass('active');
+									//console.log(newSlide.$parent.attr('class'));
+									$('.caption').addClass(newSlide.$parent.attr('class'));
+									$('.caption').removeClass('active');
 
 								// Unlock.
 									window.setTimeout(function() {
