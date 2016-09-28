@@ -789,14 +789,15 @@ dl {
       background-size: 64px 64px;
       cursor: pointer;
       z-index: 1;
-      background-color: #dedede;
+      background-color: rgba(100, 100, 100, 0.5);
       left: 0;
-      /*background-position: 0.75em 0.75em;*/ }
+      background-position: -0.25em -0.25em;
+      }
     #viewer .inner .nav-next,
     #viewer .inner .nav-previous {
       -webkit-tap-highlight-color: transparent;
       position: absolute;
-      top: 7.1em;
+      top: 3em;
       width: 4em;
       height: 4em;
       margin-top: -3em;
@@ -804,14 +805,14 @@ dl {
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-color: #dedede;
+      background-color: rgba(100, 100, 100, 0.5);
       cursor: pointer; }
     #viewer .inner .nav-previous {
       -moz-transform: "scaleX(-1)";
       -webkit-transform: "scaleX(-1)";
       -ms-transform: "scaleX(-1)";
       transform: "scaleX(-1)";
-      left: 0;
+      left: 4.2em;
       -ms-transform: rotate(180deg);
       /* IE 9 */
       -webkit-transform: rotate(180deg);
@@ -853,7 +854,8 @@ dl {
         background-color: #222222;
         color: #EBEBEB; }
       #viewer .slide .caption.grafico h2 {
-        color: #EBEBEB; }
+        /* color: #EBEBEB; */
+        }
       #viewer .slide .caption.interaccion {
         background-color: #f3e731; }
       #viewer .slide .caption.interaccion .captionGroup h2 {

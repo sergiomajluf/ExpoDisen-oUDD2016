@@ -72,11 +72,11 @@
 				background-size: 64px 64px;
 				cursor: pointer;
 				z-index: 1;
-				background-color: #dedede;
+				background-color: rgba(100,100,100,0.5);
 
 				@if _misc(main-side) == 'left' {
 					left: 0;
-					/*background-position: 0.75em 0.75em;*/
+					background-position: 0.75em 0.75em;
 				}
 				@else {
 					right: 0;
@@ -88,7 +88,7 @@
 			.nav-previous {
 				-webkit-tap-highlight-color: rgba(0,0,0,0);
 				position: absolute;
-				top: 7.1em;
+				top: 3em;
 				width: 4em;
 				height: 4em;
 				margin-top: -3em;
@@ -96,13 +96,13 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				background-color: #dedede;
+				background-color: rgba(100,100,100,0.5);
 				cursor: pointer;
 			}
 
 			.nav-previous {
 				@include vendor('transform', 'scaleX(-1)');
-				left: 0;
+				left: 4.2em;
 				-ms-transform: rotate(180deg); /* IE 9 */
 			    -webkit-transform: rotate(180deg); /* Safari */
 			    transform: rotate(180deg);
