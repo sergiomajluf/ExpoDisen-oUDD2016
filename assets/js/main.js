@@ -619,6 +619,12 @@ var main = (function($) { var _ = {
 
 								// Mark as active.
 									newSlide.$slide.addClass('active');
+<<<<<<< HEAD
+=======
+									//console.log(newSlide.$parent.attr('class'));
+									$('.caption').addClass(newSlide.$parent.attr('class'));
+									$('.caption').removeClass('active');
+>>>>>>> gh-pages
 
 								// Unlock.
 									window.setTimeout(function() {

@@ -67,6 +67,12 @@ html, body {
   background-color: #101010;
   overflow: hidden; }
 
+<<<<<<< HEAD
+=======
+#cabecera h1, #cabecera h2, #cabecera h3 {
+  color: #ffffff; }
+
+>>>>>>> gh-pages
 /* Type */
 html {
   font-size: 12pt; }
@@ -98,7 +104,11 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
+<<<<<<< HEAD
     color: #00d3b7; }
+=======
+    color: #feeb0a; }
+>>>>>>> gh-pages
 
 strong, b {
   font-weight: 400;
@@ -216,14 +226,23 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
+<<<<<<< HEAD
     border-color: #00d3b7;
     color: #00d3b7; }
+=======
+    border-color: #feeb0a;
+    color: #feeb0a; }
+>>>>>>> gh-pages
     input[type="submit"]:hover:active,
     input[type="reset"]:hover:active,
     input[type="button"]:hover:active,
     button:hover:active,
     .button:hover:active {
+<<<<<<< HEAD
       background-color: rgba(0, 211, 183, 0.15); }
+=======
+      background-color: rgba(254, 235, 10, 0.15); }
+>>>>>>> gh-pages
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
@@ -311,7 +330,11 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
+<<<<<<< HEAD
     border-color: #00d3b7; }
+=======
+    border-color: #feeb0a; }
+>>>>>>> gh-pages
 
 .select-wrapper {
   text-decoration: none;
@@ -402,7 +425,11 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
+<<<<<<< HEAD
     border-color: #00d3b7; }
+=======
+    border-color: #feeb0a; }
+>>>>>>> gh-pages
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -458,10 +485,18 @@ ol {
 
 ul {
   list-style: none;
+<<<<<<< HEAD
   margin: 0 0 1.25em 0;
   /*padding-left: 1em;*/ }
   ul li {
     padding-left: 0.5em; }
+=======
+  margin: 0 0 1.25em 0.5em;
+  /*padding-left: 1em;*/ }
+  ul li {
+    padding-left: 0.5em;
+    text-align: center; }
+>>>>>>> gh-pages
     ul li strong {
       font-weight: bold; }
   ul.alt {
@@ -612,10 +647,17 @@ dl {
     font-size: 2.25em;
     font-weight: 700;
     background: url(images/expo-diseno-logo.png);
+<<<<<<< HEAD
     background-size: calc(300px * 0.70) calc(237px * 0.70);
     background-repeat: no-repeat;
     width: 300px;
     height: 180px;
+=======
+    /*background-size: calc(300px * 0.70) calc(350px * 0.70);*/
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+>>>>>>> gh-pages
     text-indent: -9999px; }
 
 /* Footer */
@@ -674,7 +716,11 @@ dl {
         top: 0;
         width: 100%;
         height: 100%;
+<<<<<<< HEAD
         box-shadow: inset 0 0 0 2px #00d3b7, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
+=======
+        box-shadow: inset 0 0 0 2px #feeb0a, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
+>>>>>>> gh-pages
         opacity: 0;
         z-index: 1; }
       #thumbnails article .thumbnail:focus:before {
@@ -785,14 +831,25 @@ dl {
       background-size: 64px 64px;
       cursor: pointer;
       z-index: 1;
+<<<<<<< HEAD
       background-color: #dedede;
       left: 0;
       /*background-position: 0.75em 0.75em;*/ }
+=======
+      background-color: rgba(100, 100, 100, 0.5);
+      left: 0;
+      background-position: -0.25em -0.25em;
+      }
+>>>>>>> gh-pages
     #viewer .inner .nav-next,
     #viewer .inner .nav-previous {
       -webkit-tap-highlight-color: transparent;
       position: absolute;
+<<<<<<< HEAD
       top: 7.1em;
+=======
+      top: 3em;
+>>>>>>> gh-pages
       width: 4em;
       height: 4em;
       margin-top: -3em;
@@ -800,14 +857,22 @@ dl {
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
+<<<<<<< HEAD
       background-color: #dedede;
+=======
+      background-color: rgba(100, 100, 100, 0.5);
+>>>>>>> gh-pages
       cursor: pointer; }
     #viewer .inner .nav-previous {
       -moz-transform: "scaleX(-1)";
       -webkit-transform: "scaleX(-1)";
       -ms-transform: "scaleX(-1)";
       transform: "scaleX(-1)";
+<<<<<<< HEAD
       left: 0;
+=======
+      left: 4.2em;
+>>>>>>> gh-pages
       -ms-transform: rotate(180deg);
       /* IE 9 */
       -webkit-transform: rotate(180deg);
@@ -832,7 +897,10 @@ dl {
       background-image: "--webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0))";
       background-image: "--ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0))";
       background-image: "-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0))";
+<<<<<<< HEAD
       /*background: #ffffff url('images/bg.png') repeat-y;*/
+=======
+>>>>>>> gh-pages
       background-color: #fff;
       /*@include padding(2em, 2em);*/
       position: absolute;
@@ -844,6 +912,38 @@ dl {
       color: rgba(255, 255, 255, 0.5);
       color: #000000;
       z-index: 1; }
+<<<<<<< HEAD
+=======
+      #viewer .slide .caption.planComun {
+        background-color: #ECECEC; }
+      #viewer .slide .caption.grafico {
+        background-color: #222222;
+        color: #EBEBEB; }
+      #viewer .slide .caption.grafico h2 {
+        /* color: #EBEBEB; */
+        }
+      #viewer .slide .caption.interaccion {
+        background-color: #f3e731; }
+      #viewer .slide .caption.interaccion .captionGroup h2 {
+        border: 4px solid black; }
+      #viewer .slide .caption.interaccion .captionGroup h3.mencion {
+        border: 4px solid #000000;
+        background-color: #000000;
+        color: #ffffff; }
+      #viewer .slide .caption.espacios {
+        background-color: #3b3b3b;
+        color: #EBEBEB; }
+      #viewer .slide .caption.espacios h2 {
+        color: #EBEBEB; }
+      #viewer .slide .caption.facultad {
+        background-color: #888888; }
+      #viewer .slide .caption.facultad .captionGroup h2 {
+        border: 4px solid #000000; }
+      #viewer .slide .caption.facultad .captionGroup h3.mencion {
+        border: 4px solid #000000;
+        background-color: #000000;
+        color: #ffffff; }
+>>>>>>> gh-pages
       #viewer .slide .caption .captionGroup {
         position: absolute;
         bottom: 0;
